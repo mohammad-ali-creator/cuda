@@ -1,0 +1,1 @@
+function openNav(){document.getElementById("mobileNav").style.width="100%"}function closeNav(){document.getElementById("mobileNav").style.width="0%"}$(document).ready(function(){mixitup(".filterContainer");$(".serviceSection").waypoint(function(e){"down"==e?$("nav").addClass("sticky"):$("nav").removeClass("sticky")})});
